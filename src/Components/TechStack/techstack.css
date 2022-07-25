@@ -1,0 +1,14 @@
+.techstack {
+  background-color: var(--white);
+  margin-top: 40px;
+}
+.techstacks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 40px;
+  padding: 30px;
+}
+.techstacks i {
+  color: var(--rich-brown);
+}

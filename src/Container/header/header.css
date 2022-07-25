@@ -1,0 +1,42 @@
+.header {
+  background-color: var(--rich-brown);
+  height: 100vh;
+  color: var(--white);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+.header-col {
+  flex: 1;
+}
+.header-col p {
+  margin-bottom: 20px;
+}
+.header-col h1 {
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+}
+.header-col h3 {
+  margin-bottom: 15px;
+  letter-spacing: 5px;
+}
+.header-col .btn-hire {
+  background-color: var(--vibrant-green);
+  width: 150px;
+  margin-bottom: 40px;
+}
+
+.header-col img {
+  width: 350px;
+  margin-left: 80px;
+}
+
+.social-icon {
+  margin-right: 25px;
+  color: var(--yellow);
+  cursor: pointer;
+}
