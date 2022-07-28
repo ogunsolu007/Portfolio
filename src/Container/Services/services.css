@@ -2,14 +2,11 @@
   background-color: var(--white);
   color: var(--rich-brown);
 }
-.services_container {
-  padding: 30px 0;
-}
-
 .service-list {
   display: flex;
   justify-content: center;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 .service {
@@ -33,7 +30,7 @@
 .service p {
   font-weight: 400;
 }
-.service i{
+.service i {
   font-size: 30px;
   margin-bottom: 20px;
 }
@@ -43,6 +40,6 @@
 .service_2 {
   border-bottom: 5px solid var(--yellow);
 }
-.service:hover{
-border-bottom: 5px solid var(--yellow);
+.service:hover {
+  border-bottom: 5px solid var(--yellow);
 }

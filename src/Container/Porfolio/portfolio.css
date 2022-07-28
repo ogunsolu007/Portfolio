@@ -1,0 +1,18 @@
+.portfolio {
+  background-color: var(--rich-brown);
+}
+.portfolio-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.card{
+  border-radius: 30px;
+}
+.card img{
+  width: 300px;
+  max-height: 300px;
+  border-radius: 30px;
+}

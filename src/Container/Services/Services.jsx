@@ -28,7 +28,7 @@ const Services = () => {
             </p>
           </div>
           <div className="service_1 service">
-            <i class="fa-solid fa-chart-mixed"></i>
+            <i class="fab fa-accessible-icon"></i>
             <h3>Digital Marketing</h3>
             <p>
               I identify and evaluates new digital technologies and use web

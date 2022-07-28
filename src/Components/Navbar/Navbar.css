@@ -28,6 +28,23 @@ ul {
 
 .btn-cv {
   background-color: var(--yellow);
+   padding: 10px;
+  border-radius: 500px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bolder;
+  color: var(--white);
+  width: 100px;
+}
+.logo{
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+.logo span{
+  color: var(--vibrant-green);
 }
 .hamburger {
   display: none;

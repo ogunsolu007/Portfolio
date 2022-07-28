@@ -10,8 +10,8 @@ const Navbar = () => {
     <nav>
       <div className="nav-container container">
         <div className="logo">
-          <a href="#">
-            <h3 className="logo"> OG</h3>
+          <a href="#home">
+            <h3 className="logo"><span>O</span>G</h3>
           </a>
         </div>
         <div className="hamburger" onClick={changehamburger}>
@@ -36,7 +36,7 @@ const Navbar = () => {
               <a href="#contact">contact</a>
             </li>
           </ul>
-          <button className="btn-cv btn">Download CV </button>
+          <button className="btn-cv ">Download CV </button>
         </div>
       </div>
     </nav>

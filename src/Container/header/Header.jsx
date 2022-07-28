@@ -1,6 +1,7 @@
 import React from "react";
 import man from "../../assests/cherry-689.png";
 import "./header.css";
+import "animate.css";
 
 const Header = () => {
   return (
@@ -10,7 +11,9 @@ const Header = () => {
           <div className="header-col">
             <p>Hi There 👋 I'm</p>
             <h1>Ogunsolu Olawale</h1>
-            <h3>Fullstack Developer</h3>
+            <h3 className="animate__animated animate__bounce">
+              Fullstack Developer
+            </h3>
             <p>I’m a skilled fullstack developer based in Lagos.</p>
             <button className="btn btn-hire">Hire Me</button>
             <div className="social-icons">
@@ -20,8 +23,8 @@ const Header = () => {
               <i class="fa-brands fa-twitter social-icon"></i>
             </div>
           </div>
-          <div className="header-col">
-            <img src={man} alt="header image" className="header-img" />
+          <div className="header-col header-col-img">
+            <img src={man} alt="headerimage" className="header-img" />
           </div>
         </div>
       </div>

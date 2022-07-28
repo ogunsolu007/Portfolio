@@ -2,6 +2,7 @@
   background-color: var(--rich-brown);
   height: 100vh;
   color: var(--white);
+  width: 100%;
 }
 
 .header-container {
@@ -35,8 +36,13 @@
   margin-left: 80px;
 }
 
-.social-icon {
-  margin-right: 25px;
-  color: var(--yellow);
-  cursor: pointer;
+@media screen and (max-width:640px) {
+  .header-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-col-img{
+    display: none;
+  }
 }
