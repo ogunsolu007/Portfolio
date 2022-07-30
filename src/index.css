@@ -4,9 +4,7 @@
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
-body{
-  min-width: 100%;
-}
+
 :root {
   --rich-brown: #342628;
   --yellow: #feaa00;
