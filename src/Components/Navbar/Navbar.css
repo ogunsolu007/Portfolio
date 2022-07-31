@@ -4,6 +4,7 @@ nav {
   position: sticky;
   width: 100%;
   top: 0;
+  z-index: 1000;
 }
 .nav-container {
   display: flex;
@@ -28,7 +29,7 @@ ul {
 
 .btn-cv {
   background-color: var(--yellow);
-   padding: 10px;
+  padding: 10px;
   border-radius: 500px;
   border: none;
   outline: none;
@@ -38,16 +39,18 @@ ul {
   color: var(--white);
   width: 100px;
 }
-.logo{
+.logo {
   font-size: 30px;
   letter-spacing: 2px;
   font-weight: bolder;
 }
-.logo span{
+.logo span {
   color: var(--vibrant-green);
 }
 .hamburger {
   display: none;
+  color: var(--white);
+  font-size: 30px;
 }
 
 @media screen and (max-width: 640px) {
@@ -56,23 +59,29 @@ ul {
   }
   .nav-lists {
     position: absolute;
-    background-color: var(--rich-brown);
-    top: 45px;
+    background-color: var(--vibrant-green);
+    top: 55px;
     right: 0;
     height: calc(100vh - 60px);
     display: none;
     flex-direction: column;
     z-index: -1;
     padding: 40px;
-    transition: width 2s ease-out;
+ 
+    font-weight: bold;
   }
   .nav-lists-expanded {
     display: block;
     width: 50%;
+    z-index: 1000;
   }
 
   ul {
     flex-direction: column;
+    margin-top: 40px;
+  }
+  ul li {
+    font-size: 20px;
   }
   .nav-container div {
     flex: 0;

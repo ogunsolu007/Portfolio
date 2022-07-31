@@ -5,6 +5,8 @@
 .contact-container {
   display: flex;
   align-items: center;
+  width: 100%;
+
 }
 .col{
   flex: 1;
@@ -18,9 +20,7 @@
   display: flex;
   gap: 20px;
 }
-.input input {
-  flex: 1;
-}
+
 .input input,
 textarea {
   padding: 10px;
@@ -39,15 +39,10 @@ textarea::placeholder {
   position: relative;
   right: 0;
 }
-.col-2 .myImage {
-  width: 350px;
-  height: 300px;
-  margin-left: 200px;
-  position: relative;
-  top: -90px;
-}
+
 @media screen and (max-width:640px) {
-  .col-2{
-    display: none;
-  }
+ .input{
+  display: flex;
+  flex-direction: column;
+ }
 }

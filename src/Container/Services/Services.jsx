@@ -10,7 +10,7 @@ const Services = () => {
           Building Digital Product <br /> Better Experience
         </h1>
         <div className="service-list">
-          <div className="service_1 service">
+          <div className="service_1 service" data-aos="zoom-in-right">
             <i class="fa-solid fa-blog"></i>
             <h3>Web Development</h3>
             <p>
@@ -19,7 +19,7 @@ const Services = () => {
               website layouts.
             </p>
           </div>
-          <div className="service_2 service">
+          <div className="service_2 service" data-aos="zoom-in">
             <i class="fa-solid fa-mobile-screen-button"></i>
             <h3>Mobile Development</h3>
             <p>
@@ -27,7 +27,7 @@ const Services = () => {
               applications
             </p>
           </div>
-          <div className="service_1 service">
+          <div className="service_1 service" data-aos="zoom-in-left">
             <i class="fab fa-accessible-icon"></i>
             <h3>Digital Marketing</h3>
             <p>

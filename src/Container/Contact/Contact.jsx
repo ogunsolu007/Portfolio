@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="contact-container container">
-        <div className="col col-1">
+        <div className="col">
           <p className="title ">Hire me</p>
           <h1 className="subtitle">
             Stay Chill and Tell
@@ -31,15 +31,6 @@ const Contact = () => {
                 SEND
               </button>
             </form>
-          </div>
-        </div>
-        <div className="col col-2">
-          <img src={me} alt="" className="myImage" />
-          <div className="social-icons">
-            <i class="fa-brands fa-facebook-f social-icon"></i>
-            <i class="fa-brands fa-github social-icon"></i>
-            <i class="fa-brands fa-linkedin social-icon"></i>
-            <i class="fa-brands fa-twitter social-icon"></i>
           </div>
         </div>
       </div>
