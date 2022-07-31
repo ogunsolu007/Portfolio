@@ -1,18 +1,32 @@
 .portfolio {
   background-color: var(--rich-brown);
 }
-.portfolio-container {
+.cards {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 30px;
   flex-wrap: wrap;
+  margin: 50px 0 30px;
 }
-.card{
+.card {
   border-radius: 30px;
 }
-.card img{
+.card img {
   width: 300px;
   max-height: 300px;
   border-radius: 30px;
+}
+.portfolio-container .subtitle {
+  color: var(--white);
+  font-size: 25px;
+}
+.portfolio-container .title {
+  margin-top: 30px;
+  color: var(--yellow);
+}
+
+.github{
+  text-align: center;
+  color: var(--white);
 }
