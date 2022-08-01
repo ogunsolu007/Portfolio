@@ -1,10 +1,31 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./contact.css";
 import "animate.css";
-import me from "../../assests/me.png";
-import Techstack from "../../Components/TechStack/Techstack";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_h2eeb53",
+        "template_ki93qoc",
+        form.current,
+        "6Wj4BDAOXX_AiH6H8"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div className="contact">
       <div className="contact-container container">
@@ -15,7 +36,7 @@ const Contact = () => {
             <br /> Your Plan
           </h1>
           <div className="form">
-            <form action="" className="form-container">
+            <form ref={form} onSubmit={sendEmail} className="form-container">
               <div className="input">
                 <input type="text" placeholder="Name" />
                 <input type="email" placeholder="Email" />

@@ -15,20 +15,58 @@ const Portfolio = () => {
         </h1>
         <div className="cards">
           <div className="card" data-aos="flip-up">
-            <img src={fylo} alt="" />
+            <div className="card_inner">
+              <div className="card-front">
+                <img src={fylo} alt="" />
+              </div>
+              <div className="card-back">
+                <a href="#" target="_blank">
+                  <i class="fa-brands fa-github"> Source Code</i>
+                </a>
+                <a href="#" target="_blank">
+                  <i class="fa-brands fa-internet-explorer">View Site</i>
+                </a>
+              </div>
+            </div>
           </div>
           <div className="card" data-aos="flip-left">
-            <img src={urlshort} alt="" />
+            <div className="card_inner">
+              <div className="card-front">
+                <img src={fylo} alt="" />
+              </div>
+              <div className="card-back">
+                <a href="#" target="_blank">
+                  <i class="fa-brands fa-github"> Source Code</i>
+                </a>
+                <a href="#" target="_blank">
+                  <i class="fa-brands fa-internet-explorer">View Site</i>
+                </a>
+              </div>
+            </div>
           </div>
           <div className="card" data-aos="flip-down">
-            <img src={huddle} alt="" />
+            <div className="card_inner">
+              <div className="card-front">
+                <img src={fylo} alt="" />
+              </div>
+              <div className="card-back">
+                <a href="#" target="_blank">
+                  <i class="fa-brands fa-github"> Source Code</i>
+                </a>
+                <a href="#" target="_blank">
+                  <i class="fa-brands fa-internet-explorer">View Site</i>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
         <div className="github">
           <span></span>
           <p>
             For more kindly check my Github Repo{" "}
-            <a href="#" target="_blank">Click Here</a>
+            <a href="#" target="_blank">
+              Click Here
+            </a>
           </p>
         </div>
       </div>
