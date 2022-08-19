@@ -27,10 +27,11 @@
 .about_container-content-img {
   display: flex;
   justify-content: center;
-  padding: 20px 0;
+  padding: 20px 10px;
 }
 .about_container-content-img img {
   border-radius: 20px;
+  min-width: 200px;
 }
 .techstack {
   max-width: 60%;
@@ -42,4 +43,15 @@
   flex-wrap: wrap;
   font-weight: bold;
   font-size: 17px;
+}
+@media screen and (max-width:640px) {
+  .about_container-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+  .techstack{
+    min-width: 100%;
+  }
 }
