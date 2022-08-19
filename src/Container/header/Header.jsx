@@ -3,7 +3,7 @@ import man from "../../assests/cherry-689.png";
 import "./header.css";
 import "animate.css";
 import Social from "../../Components/socials/Social";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from "react-scroll";
 
 const Header = () => {
   return (

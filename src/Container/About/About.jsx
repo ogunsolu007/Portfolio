@@ -11,7 +11,7 @@ const About = () => {
           About Me
         </h1>
         <div className="about_container-content">
-          <div className="about_container-content-text">
+          <div className="about_container-content-text" data-aos="fade-up">
             <h3>Who am I?</h3>
             <p>
               A Frontend Engineer with hands on project experience developing
@@ -21,31 +21,31 @@ const About = () => {
             </p>
             <p>
               A Bachelor’s Degree holder in Computer Science Education.
-              Currently looking for an organisation where i can put my skills
-              to use and pivot the growth of the engineering team.
+              Currently looking for an organisation where i can put my skills to
+              use and pivot the growth of the engineering team.
             </p>
           </div>
           <div className="about_container-content-img">
-            <img src={myImg} alt="my img" />
+            <img src={myImg} alt="my img" data-aos="zoom-in-down" />
           </div>
         </div>
         <div className="techstack">
           <h3>Tech Stack</h3>
           <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>SASS</li>
-            <li>JavaScript</li>
-            <li>JQuery</li>
-            <li>React</li>
-            <li>Next Js</li>
-            <li>Github</li>
-            <li>Redux</li>
-            <li>Node Js</li>
-            <li>Accessbility</li>
-            <li>Github</li>
-            <li>Tailwind CSS</li>
-            <li>Redux</li>
+            <li data-aos="fade-up">HTML5</li>
+            <li data-aos="fade-left">CSS3</li>
+            <li data-aos="fade-down">SASS</li>
+            <li data-aos="fade-up">JavaScript</li>
+            <li data-aos="fade-right">JQuery</li>
+            <li data-aos="fade-up">React</li>
+            <li data-aos="fade-left">Next Js</li>
+            <li data-aos="fade-up">Github</li>
+            <li data-aos="fade-right">Redux</li>
+            <li data-aos="fade-left">Node Js</li>
+            <li data-aos="fade-up">Accessbility</li>
+            <li data-aos="fade-right">Github</li>
+            <li data-aos="fade-down">Tailwind CSS</li>
+            <li data-aos="fade-right">Redux</li>
           </ul>
         </div>
       </div>

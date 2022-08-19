@@ -40,9 +40,9 @@ const Contact = () => {
   return (
     <div className="contact" id="contact">
       <div className="contact-container container">
-        <div className="col">
+        <div className="col" data-aos="zoom-in-right">
           <p className="title ">
-            Let's Connect!  <i class="fa-solid fa-envelope-open-text"></i>
+            Let's Connect! <i class="fa-solid fa-envelope-open-text"></i>
           </p>
           <h1 className="subtitle">
             Stay Chill and Tell
@@ -53,7 +53,7 @@ const Contact = () => {
             want a quick chat - you can find me on social media or you can send
             me a message here!
           </p>
-          <Social/>
+          <Social />
         </div>
         <div className="col">
           <div className="form">
