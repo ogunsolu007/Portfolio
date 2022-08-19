@@ -20,38 +20,33 @@ const About = () => {
               data structures, algorithms and the design of systems.
             </p>
             <p>
-              A Bachelor’s Degree holder in Computer Science Education.Currently
-              kiiking for an organisation where i can put in my skills into use
-              and pivot the growth of the engineering team.
+              A Bachelor’s Degree holder in Computer Science Education.
+              Currently looking for an organisation where i can put my skills
+              to use and pivot the growth of the engineering team.
             </p>
-            <div className="techstack">
-              <h3>Tech Stack</h3>
-              <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>SASS</li>
-                <li>JavaScript</li>
-                <li>JQuery</li>
-              </ul>
-              <ul>
-                <li>React</li>
-                <li>Next Js</li>
-                <li>Github</li>
-                <li>Tailwind CSS</li>
-                <li>Redux</li>
-              </ul>
-              <ul>
-                <li>Node Js</li>
-                <li>Accessbility</li>
-                <li>Github</li>
-                <li>Tailwind CSS</li>
-                <li>Redux</li>
-              </ul>
-            </div>
           </div>
           <div className="about_container-content-img">
             <img src={myImg} alt="my img" />
           </div>
+        </div>
+        <div className="techstack">
+          <h3>Tech Stack</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>SASS</li>
+            <li>JavaScript</li>
+            <li>JQuery</li>
+            <li>React</li>
+            <li>Next Js</li>
+            <li>Github</li>
+            <li>Redux</li>
+            <li>Node Js</li>
+            <li>Accessbility</li>
+            <li>Github</li>
+            <li>Tailwind CSS</li>
+            <li>Redux</li>
+          </ul>
         </div>
       </div>
     </div>

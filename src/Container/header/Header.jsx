@@ -16,7 +16,7 @@ const Header = () => {
             <h3>Frontend Developer</h3>
             <p className="sec_p">I’m a skilled fullstack developer based in Lagos, Nigeria.</p>
             <Link
-              to="services"
+              to="about"
               spy={true}
               smooth={true}
               offset={-70}

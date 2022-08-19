@@ -1,46 +1,45 @@
-.services {
+.about {
   background-color: var(--white);
   color: var(--rich-brown);
 }
-.service-list {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-  margin: 70px 0 20px ;
-}
 
-.service {
-  padding: 50px;
-  flex: 1;
-  background-color: var(--rich-brown);
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-  color: var(--white);
-  border-radius: 10px 10px 0 0;
+.about_container-content {
   display: flex;
   align-items: flex-start;
-  flex-direction: column;
-  height: 300px;
+  flex-wrap: wrap;
 }
-.service:hover {
-  background-color: var(--vibrant-green);
+.about_container-content div {
+  flex: 1;
 }
-.service h3 {
-  margin-bottom: 20px;
+.about_container-content-text {
+  font-weight: bold;
+  padding: 20px 0;
 }
-.service p {
-  font-weight: 400;
+.about_container h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bolder;
 }
-.service i {
-  font-size: 30px;
-  margin-bottom: 20px;
+.about_container-content-text p {
+  margin-bottom: 25px;
+  line-height: 2;
 }
-.service_1 {
-  border-bottom: 5px solid var(--vibrant-green);
+.about_container-content-img {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
 }
-.service_2 {
-  border-bottom: 5px solid var(--yellow);
+.about_container-content-img img {
+  border-radius: 20px;
 }
-.service:hover {
-  border-bottom: 5px solid var(--yellow);
+.techstack {
+  max-width: 60%;
+  margin-top: 30px;
+}
+.techstack ul {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  font-size: 17px;
 }
