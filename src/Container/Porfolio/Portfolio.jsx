@@ -1,12 +1,10 @@
 import React from "react";
 import "./portfolio.css";
 import fylo from "../../assests/fylo.png";
-import urlshort from "../../assests/urlshortner.png";
-import huddle from "../../assests/huddle.png";
 
 const Portfolio = () => {
   return (
-    <div className="portfolio">
+    <div className="portfolio" id="portfolio">
       <div className="container portfolio-container">
         <p className="title">Portfolio</p>
         <h1 className="subtitle">
@@ -20,11 +18,11 @@ const Portfolio = () => {
                 <img src={fylo} alt="" />
               </div>
               <div className="card-back">
-                <a href="#" target="_blank">
+                <a href="https://github.com/ogunsolu007" target="_blank"  rel="noreferrer">
                   <i class="fa-brands fa-github"> Source Code</i>
                 </a>
-                <a href="#" target="_blank">
-                  <i class="fa-brands fa-internet-explorer">View Site</i>
+                <a href="https://github.com/ogunsolu007" target="_blank" rel="noreferrer">
+                  <i class="fa-brands fa-internet-explorer"> View Site</i>
                 </a>
               </div>
             </div>
@@ -35,10 +33,10 @@ const Portfolio = () => {
                 <img src={fylo} alt="" />
               </div>
               <div className="card-back">
-                <a href="#" target="_blank">
+                <a href="https://github.com/ogunsolu007" target="_blank" rel="noreferrer">
                   <i class="fa-brands fa-github"> Source Code</i>
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://github.com/ogunsolu007" target="_blank" rel="noreferrer">
                   <i class="fa-brands fa-internet-explorer">View Site</i>
                 </a>
               </div>
@@ -50,10 +48,10 @@ const Portfolio = () => {
                 <img src={fylo} alt="" />
               </div>
               <div className="card-back">
-                <a href="#" target="_blank">
+                <a href="https://github.com/ogunsolu007" target="_blank" rel="noreferrer">
                   <i class="fa-brands fa-github"> Source Code</i>
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://github.com/ogunsolu007" target="_blank" rel="noreferrer">
                   <i class="fa-brands fa-internet-explorer">View Site</i>
                 </a>
               </div>
@@ -63,8 +61,8 @@ const Portfolio = () => {
         <div className="github">
           <span></span>
           <p>
-            For more kindly check my Github Repo{" "}
-            <a href="#" target="_blank">
+            For more kindly check my Github Repo
+            <a href="https://github.com/ogunsolu007" target="_blank" rel="noreferrer">
               Click Here
             </a>
           </p>

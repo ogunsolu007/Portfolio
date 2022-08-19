@@ -1,52 +1,91 @@
-import React, { useRef } from "react";
+import React, { useState } from "react";
 import "./contact.css";
 import "animate.css";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  const form = useRef();
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const changeHandler = (e) => {
+    setFormData((formData) => ({
+      ...formData,
+      [e.target.name]: e.target.value,
+    }));
+  };
 
+  const handleSubmit = (e) => {
+    e.prevent.default();
     emailjs
-      .sendForm(
+      .send(
         "service_h2eeb53",
-        "template_ki93qoc",
-        form.current,
+        "template_1msq5b3",
+        formData,
         "6Wj4BDAOXX_AiH6H8"
       )
       .then(
-        (result) => {
-          console.log(result.text);
+        (response) => {
+          console.log("SUCCESS", response);
         },
         (error) => {
-          console.log(error.text);
+          console.log("failed....", error);
         }
       );
   };
-
+  console.log(formData);
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="contact-container container">
         <div className="col">
-          <p className="title ">Hire me</p>
+          <p className="title ">
+            Let's Connect!  <i class="fa-solid fa-envelope-open-text"></i>
+          </p>
           <h1 className="subtitle">
             Stay Chill and Tell
             <br /> Your Plan
           </h1>
+          <p className="contact_text">
+            If you ever want to grab a coffee/bubble tea (virtually) or just
+            want a quick chat - you can find me on social media or you can send
+            me a message here!
+          </p>
+          <div className="social-icons">
+            <i class="fa-brands fa-facebook-f social-icon"></i>
+            <i class="fa-brands fa-github social-icon"></i>
+            <i class="fa-brands fa-linkedin social-icon"></i>
+            <i class="fa-brands fa-twitter social-icon"></i>
+          </div>
+        </div>
+        <div className="col">
           <div className="form">
-            <form ref={form} onSubmit={sendEmail} className="form-container">
+            <form className="form-container" onSubmit={handleSubmit}>
               <div className="input">
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Email" />
+                <input
+                  type="text"
+                  value={formData.name}
+                  placeholder="Name"
+                  onChange={changeHandler}
+                  name="name"
+                />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  onChange={changeHandler}
+                  value={formData.email}
+                  name="email"
+                />
               </div>
               <textarea
-                name=""
                 id=""
                 cols="30"
                 rows="10"
                 placeholder="Message..."
+                onChange={changeHandler}
+                value={formData.message}
+                name="message"
               ></textarea>
               <button type="submit" className="btn ">
                 SEND
