@@ -40,7 +40,7 @@ const Contact = () => {
   return (
     <div className="contact" id="contact">
       <div className="contact-container container">
-        <div className="col" data-aos="zoom-in-right">
+        <div className="col" data-aos="zoom-in">
           <p className="title ">
             Let's Connect! <i class="fa-solid fa-envelope-open-text"></i>
           </p>

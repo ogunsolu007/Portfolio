@@ -54,4 +54,10 @@
   .techstack{
     min-width: 100%;
   }
+  .techstack ul{
+   overflow: hidden;
+   display: flex;
+   flex-direction: row;
+  }
+ 
 }
