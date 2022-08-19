@@ -32,14 +32,14 @@ const Navbar = () => {
         <div className={toggle ? "nav-lists nav-lists-expanded" : "nav-lists"}>
           <ul>
             <Link
-              to="services"
+              to="about"
               spy={true}
               smooth={true}
               offset={-70}
-              duration={500}
+              duration={2000}
             >
               <li className="nav-list">
-                <a href="#services">Services</a>
+                <a href="#about">About</a>
               </li>
             </Link>
             <Link
@@ -47,7 +47,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={500}
+              duration={2000}
             >
               <li className="nav-list">
                 <a href="#porfolio">portfolio</a>
@@ -58,7 +58,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={500}
+              duration={2000}
             >
               <li className="nav-list">
                 <a href="#contact">contact</a>

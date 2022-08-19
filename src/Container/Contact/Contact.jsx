@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./contact.css";
 import "animate.css";
 import emailjs from "@emailjs/browser";
+import Social from "../../Components/socials/Social";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -52,12 +53,7 @@ const Contact = () => {
             want a quick chat - you can find me on social media or you can send
             me a message here!
           </p>
-          <div className="social-icons">
-            <i class="fa-brands fa-facebook-f social-icon"></i>
-            <i class="fa-brands fa-github social-icon"></i>
-            <i class="fa-brands fa-linkedin social-icon"></i>
-            <i class="fa-brands fa-twitter social-icon"></i>
-          </div>
+          <Social/>
         </div>
         <div className="col">
           <div className="form">

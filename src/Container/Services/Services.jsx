@@ -3,7 +3,7 @@ import "./services.css";
 import Techstack from "../../Components/TechStack/Techstack";
 const Services = () => {
   return (
-    <div className="services" id="services">
+    <div className="services" id="about">
       <div className="services_container container">
         <p className="title">Services</p>
         <h1 className="subtitle">

@@ -11,7 +11,7 @@
   --vibrant-green: #788402;
   --white: #f7f4ef;
 }
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 5px;
 }
 ::-webkit-scrollbar-thumb {
@@ -21,7 +21,7 @@
 }
 ::-webkit-scrollbar-thumb:hover {
   background: var(--yellow);
-}
+} */
 
 .container {
   max-width: 80%;
