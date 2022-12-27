@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import "./Navbar.css";
+import Button from "../button/Button";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
@@ -39,7 +40,18 @@ const Navbar = () => {
               duration={2000}
             >
               <li className="nav-list">
-                <a href="#about">About</a>
+                <span>01.</span> <a href="#about">About</a>
+              </li>
+            </Link>
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={2000}
+            >
+              <li className="nav-list">
+                <span>02.</span> <a href="#experience">Experience</a>
               </li>
             </Link>
             <Link
@@ -50,7 +62,7 @@ const Navbar = () => {
               duration={2000}
             >
               <li className="nav-list">
-                <a href="#porfolio">portfolio</a>
+                <span>03.</span> <a href="#work">work</a>
               </li>
             </Link>
             <Link
@@ -61,11 +73,11 @@ const Navbar = () => {
               duration={2000}
             >
               <li className="nav-list">
-                <a href="#contact">contact</a>
+                <span>04.</span> <a href="#contact">contact</a>
               </li>
             </Link>
+            <Button label="Download CV" styling={"btn-cv"} />
           </ul>
-          <button className="btn-cv ">Download CV </button>
         </div>
       </div>
     </nav>

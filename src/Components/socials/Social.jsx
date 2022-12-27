@@ -1,9 +1,9 @@
 import React from "react";
 
-const Social = () => {
+const Social = (styling) => {
   return (
-    <div>
-      <div className="social-icons">
+    <div className={styling} >
+      <div>
         <a
           href="https://web.facebook.com/ogunsoluqudus"
           target="_blank"
