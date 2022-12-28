@@ -47,11 +47,12 @@ li {
   display: flex;
   align-items: center;
   color: var(--aquamarine);
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 20px;
+  font-family: "Prosto One", cursive;
 }
-.section_title p{
-  font-weight: bolder;
+.section_title h4 {
+ letter-spacing: 4px;
 }
 .section_title span {
   color: var(--silver-sand);

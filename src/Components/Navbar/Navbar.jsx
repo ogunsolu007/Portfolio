@@ -44,7 +44,7 @@ const Navbar = () => {
               </li>
             </Link>
             <Link
-              to="about"
+              to="experience"
               spy={true}
               smooth={true}
               offset={-70}
@@ -55,7 +55,7 @@ const Navbar = () => {
               </li>
             </Link>
             <Link
-              to="portfolio"
+              to="work"
               spy={true}
               smooth={true}
               offset={-70}

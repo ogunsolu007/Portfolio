@@ -29,9 +29,6 @@ const Header = () => {
               <Button label="Find out more 🤔" styling="header-btn" />
             </Link>
           </div>
-          <Social styling="header-social" />
-          {/* <div className="hr-left"></div> */}
-          {/* <div className="hr-right"></div> */}
         </div>
       </div>
     </>

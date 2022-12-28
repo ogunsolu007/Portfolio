@@ -7,6 +7,8 @@ import Footer from "./Container/Footer/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import About from "./Container/About/About";
+import Social from "./Components/socials/Social";
+import Experience from "./Container/Experience/Experience";
 
 function App() {
   useEffect(() => {
@@ -18,9 +20,11 @@ function App() {
   }, []);
   return (
     <>
+      <Social />
       <Navbar />
       <Header />
       <About />
+      <Experience/>
       <Portfolio />
       <Contact />
       <Footer />
