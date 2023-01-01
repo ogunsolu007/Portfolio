@@ -1,0 +1,79 @@
+.work-container {
+  padding: 50px 70px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  column-gap: 20px;
+}
+
+.card {
+  background-color: var(--ebony-clay);
+}
+
+.card-title {
+  color: var(--aquamarine);
+}
+.card-text {
+  color: var(--silver-sand);
+  font-weight: lighter;
+  margin: 20px 0;
+}
+.card-techlist {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.list-item{
+  background-color: var(--keppel);
+  margin-right: 3px;
+  padding: 3px 5px;
+}
+.card-links {
+  display: flex;
+  align-items: center;
+}
+.card-link {
+  color: var(--keppel);
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 6px;
+  transition: 1s;
+}
+.card-link:hover {
+  color: var(--aquamarine);
+  transform: scale(1.2);
+}
+
+.more-works {
+  background: transparent;
+  color: var(--aquamarine);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.more-works h1 {
+  font-size: 25px;
+}
+
+.works-btn {
+  background-color: var(--keppel);
+  padding: 10px;
+  border: 1px solid var(--silver-sand);
+  outline: none;
+  cursor: pointer;
+  font-size: 12px;
+  width: 200px;
+  font-weight: bolder;
+  color: var(--wood-smoke);
+  transition: 1s;
+}
+
+.works-btn:hover {
+  background-color: transparent;
+  color: var(--keppel);
+}
