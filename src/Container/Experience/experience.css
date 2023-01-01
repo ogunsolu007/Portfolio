@@ -21,7 +21,6 @@
   align-items: flex-start;
   margin-bottom: 4rem;
   border-left: 2px solid var(--keppel);
-
 }
 
 .job-btn {
@@ -45,7 +44,7 @@
 
   background: var(--ebony-clay);
 }
-.active-btn{
+.active-btn {
   box-shadow: 0 0.5px var(--keppel);
 }
 

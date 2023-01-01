@@ -7,7 +7,7 @@ export default [
     id: 1,
     title: "Mapty",
     details:
-      "lorem2 ihjhnjhihiohkjnkihlhiohoihklnhjiohnihnihikhjihihihjkihjikjuihihi kjndfkjngjsdbafjksdbakjfbdsjkbfkjsdbjfbdskjbn vj jfd vjbdfnfkjfndskfnlc sdkfdknfklsadn fdjnklnmfkdsn v fdsklnfksndf",
+      "hihihjkihjikjuihihi kjndfkjngjsdbafjksdbakjfbdsjkbfkjsdbjfbdskjbn vj jfd vjbdfnfkjfndskfnlc sdkfdknfklsadn fdjnklnmfkdsn v fdsklnfksndf",
     technologies: ["HTML", "JavaScript", "CSS"],
     img: mapty,
   },
@@ -15,7 +15,7 @@ export default [
     id: 2,
     title: "Mapty",
     details:
-      "lorem2 kjndfkjngjsdbafjksdbakjfbdsjkbfkjsdbjfbdjskjlfsdbfdjkslbjflbkjbfjffdskjbn vj jfd vjbdfnfkjfndskfnlc sdkfdknfklsadn fdjnklnmfkdsn v fdsklnfksndf",
+      "lorem2 kjsjkbfkjsdbjfbdjskjlfsdbfdjkslbjflbkjbfjffdskjbn vj jfd vjbdfnfkjfndskfnlc sdkfdknfklsadn fdjnklnmfkdsn v fdsklnfksndf",
     technologies: ["HTML", "JavaScript", "CSS"],
     img: gpt,
   },

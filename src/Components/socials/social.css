@@ -1,0 +1,18 @@
+.socials {
+  position: fixed;
+  color: white;
+  z-index: 2000;
+  bottom: 40px;
+  left: 65px;
+}
+.social-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social-container a{
+    margin-bottom: 20px;
+}
+.social-container a:hover{
+    color: var(--silver-sand);
+}

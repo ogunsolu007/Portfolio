@@ -1,7 +1,6 @@
 import React from "react";
 import "./header.css";
 import "animate.css";
-import Social from "../../Components/socials/Social";
 import { Link } from "react-scroll";
 import Button from "../../Components/button/Button";
 

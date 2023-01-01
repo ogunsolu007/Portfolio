@@ -1,5 +1,7 @@
 .work-container {
+  margin-top: 100px;
   padding: 50px 70px;
+  border: 2px solid yellow;
 }
 
 .row {
@@ -26,7 +28,7 @@
   font-size: 12px;
   margin-bottom: 10px;
 }
-.list-item{
+.list-item {
   background-color: var(--keppel);
   margin-right: 3px;
   padding: 3px 5px;

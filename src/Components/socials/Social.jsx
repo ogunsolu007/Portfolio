@@ -1,15 +1,15 @@
 import React from "react";
+import "./social.css"
 
-const Social = (styling) => {
+const Social = () => {
   return (
-    <div className={styling} >
-      <div>
+    <div className="socials">
+      <div className="container social-container">
         <a
           href="https://web.facebook.com/ogunsoluqudus"
           target="_blank"
           rel="noopener noreferrer"
         >
-          {" "}
           <i class="fa-brands fa-facebook-f social-icon"></i>
         </a>
 
@@ -18,8 +18,7 @@ const Social = (styling) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {" "}
-          <i class="fa-brands fa-github social-icon"></i>{" "}
+          <i class="fa-brands fa-github social-icon"></i>
         </a>
 
         <a
@@ -34,7 +33,6 @@ const Social = (styling) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {" "}
           <i class="fa-brands fa-twitter social-icon"></i>
         </a>
       </div>
